@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-05T03:47:11 IST" name="Default suite" finished-at="2021-04-05T03:47:57 IST" duration-ms="46088">
+    <groups>
+    </groups>
+    <test started-at="2021-04-05T03:47:11 IST" name="Default test" finished-at="2021-04-05T03:47:57 IST" duration-ms="46088">
+      <class name="com.demoshop24.test.CartItemTest">
+        <test-method is-config="true" signature="loadProperties()[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:11 IST" name="loadProperties" finished-at="2021-04-05T03:47:11 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:11 IST" name="setup" finished-at="2021-04-05T03:47:17 IST" duration-ms="5585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAddToCart(java.lang.String)[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:17 IST" name="verifyAddToCart" description="To verify add to cart functionality" data-provider="getSearchTestData" finished-at="2021-04-05T03:47:21 IST" duration-ms="3855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:21 IST" name="teardown" finished-at="2021-04-05T03:47:21 IST" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:21 IST" name="setup" finished-at="2021-04-05T03:47:26 IST" duration-ms="4203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCartTotalQuantity(java.lang.String)[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:26 IST" name="verifyCartTotalQuantity" description="To verify no. of items displayed in the cart" data-provider="getSearchTestData" finished-at="2021-04-05T03:47:29 IST" duration-ms="3692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartTotalQuantity -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:29 IST" name="teardown" finished-at="2021-04-05T03:47:30 IST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:30 IST" name="setup" finished-at="2021-04-05T03:47:34 IST" duration-ms="4315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyProductSearchDetailsPage(java.lang.String)[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:34 IST" name="verifyProductSearchDetailsPage" description="To verify title of the search result page" data-provider="getSearchTestData" finished-at="2021-04-05T03:47:37 IST" duration-ms="2605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductSearchDetailsPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:37 IST" name="teardown" finished-at="2021-04-05T03:47:38 IST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:38 IST" name="setup" finished-at="2021-04-05T03:47:42 IST" duration-ms="4121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRemoveCart(java.lang.String)[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:42 IST" name="verifyRemoveCart" description="To verify remove item cart functionality" data-provider="getSearchTestData" finished-at="2021-04-05T03:47:46 IST" duration-ms="4238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:46 IST" name="teardown" finished-at="2021-04-05T03:47:47 IST" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:47 IST" name="setup" finished-at="2021-04-05T03:47:52 IST" duration-ms="4263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyViewPageCartTitle(java.lang.String)[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:52 IST" name="verifyViewPageCartTitle" description="To verify added cart items on view page" data-provider="getSearchTestData" finished-at="2021-04-05T03:47:55 IST" duration-ms="3624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyViewPageCartTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demoshop24.test.CartItemTest@543588e6]" started-at="2021-04-05T03:47:55 IST" name="teardown" finished-at="2021-04-05T03:47:57 IST" duration-ms="1392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demoshop24.test.CartItemTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
